@@ -24,7 +24,7 @@ Le système détecte automatiquement les nouveaux fichiers dans un dossier spéc
 - Protéger les données contre tout accès non autorisé  
 - Prévenir les fuites de données et limiter les risques liés aux ransomwares  
 - Automatiser les mécanismes de sécurité  
-- Respecter les normes et réglementations (ex : RGPD)
+- Respecter les normes et réglementations (ex : RGPD)  
 
 ---
 
@@ -39,7 +39,7 @@ Le système détecte automatiquement les nouveaux fichiers dans un dossier spéc
 ## 4. Stratégie de sécurité
 - Chiffrement AES via la bibliothèque Fernet  
 - Gestion de la clé générée dynamiquement et persistante dans un fichier  
-- Journaux d’activité pour tracer toutes les actions de l’agent
+- Journaux d’activité pour tracer toutes les actions de l’agent  
 
 ---
 
@@ -61,13 +61,13 @@ Le système détecte automatiquement les nouveaux fichiers dans un dossier spéc
 - `agent.py` : code principal de l’agent de chiffrement  
 - `test2.py` : script de test  
 - `requirements.txt` : dépendances Python  
-- `.gitignore` : fichiers à ignorer dans le dépôt Git  
-- `README.md` : documentation du projet
+- `.gitignore` : fichiers à ignorer dans le dépôt  
+- `README.md` : documentation du projet  
 
 ---
 
 ## 8. Installation et exécution
-1. Cloner le dépôt :
+1. Cloner le dépôt :  
 ```bash
 git clone <lien_du_depot>
 cd ai-encryption-agent
@@ -114,4 +114,5 @@ Il met en évidence l’importance de l’automatisation et du suivi des fichier
 Le projet peut être amélioré pour devenir un outil encore plus robuste et professionnel, notamment en ajoutant une interface et une meilleure gestion des clés et des logs.
 
 ```
-
+Veux‑tu que je fasse ça ?
+```
