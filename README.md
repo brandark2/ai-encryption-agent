@@ -1,10 +1,3 @@
-Ah d’accord ! 😅 Je comprends maintenant : tu veux **un seul README complet**, **de A à Z**, avec toutes les parties incluses directement dans **un seul bloc**, prêt à copier-coller sur GitHub. Voici la version finale et complète :
-
----
-
-# README.md — VERSION FINALE TOUT EN UN
-
-````markdown
 # Agent de Chiffrement Automatisé
 
 ## Sommaire
