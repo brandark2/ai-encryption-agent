@@ -112,7 +112,3 @@ python agent.py
 Ce projet montre une approche pratique de la sécurité des données à travers un agent automatisé.
 Il met en évidence l’importance de l’automatisation et du suivi des fichiers sensibles pour prévenir les risques et garantir la confidentialité.
 Le projet peut être amélioré pour devenir un outil encore plus robuste et professionnel, notamment en ajoutant une interface et une meilleure gestion des clés et des logs.
-
-```
-Veux‑tu que je fasse ça ?
-```
