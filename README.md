@@ -1,58 +1,73 @@
 # Agent de Chiffrement Automatisé
 
-## Présentation du projet
-Ce projet consiste à développer un agent automatisé de chiffrement permettant de protéger les données sensibles en surveillant les fichiers et en appliquant un chiffrement en temps réel.
-
-Le système détecte les nouveaux fichiers et les sécurise automatiquement, sans intervention humaine.
+## Sommaire
+1. Présentation du projet
+2. Objectifs
+3. Fonctionnalités
+4. Stratégie de sécurité
+5. Cas d'utilisation
+6. Technologies utilisées
+7. Structure du projet
+8. Installation et exécution
+9. Limites et améliorations possibles
+10. Conclusion
 
 ---
 
-## Objectifs
-- Protéger les données contre les accès non autorisés  
+## 1. Présentation du projet
+Ce projet consiste à développer un agent automatisé capable de chiffrer des fichiers sensibles en temps réel.  
+Le système détecte automatiquement les nouveaux fichiers dans un dossier spécifique et applique un chiffrement AES sans intervention humaine.
+
+---
+
+## 2. Objectifs
+- Protéger les données contre tout accès non autorisé  
 - Prévenir les fuites de données et limiter les risques liés aux ransomwares  
-- Assurer la conformité avec les réglementations en vigueur (ex : RGPD)  
-- Automatiser les processus de sécurité  
+- Automatiser les mécanismes de sécurité  
+- Respecter les normes et réglementations (ex : RGPD)
 
 ---
 
-## Fonctionnalités
+## 3. Fonctionnalités
 - Surveillance des fichiers en temps réel  
-- Chiffrement automatique des nouveaux fichiers  
+- Chiffrement automatique des fichiers nouvellement ajoutés  
+- Gestion d’erreurs basique mais sécurisée  
 - Prévention du chiffrement multiple sur un même fichier  
-- Solution légère et facilement déployable  
 
 ---
 
-## Stratégie de sécurité
-- Données au repos : chiffrement AES via la bibliothèque Fernet  
-- Données en transit : TLS (approche conceptuelle)  
-- Gestion des clés : génération dynamique et persistante de la clé de chiffrement  
+## 4. Stratégie de sécurité
+- Chiffrement AES via la bibliothèque Fernet  
+- Gestion de la clé générée dynamiquement et persistante dans un fichier  
+- Journaux d’activité pour tracer toutes les actions de l’agent
 
 ---
 
-## Cas d’utilisation
+## 5. Cas d'utilisation
 - Systèmes de santé (protection des données patients)  
 - Systèmes financiers  
-- Tout environnement manipulant des données sensibles  
+- Tout environnement manipulant des données sensibles ou confidentielles  
 
 ---
 
-## Technologies utilisées
+## 6. Technologies utilisées
 - Python  
-- Bibliothèque Cryptography  
-- Watchdog (surveillance du système de fichiers)  
+- Cryptography  
+- Watchdog (pour la surveillance du système de fichiers)  
 
 ---
 
-## Structure du projet
-- `agent.py` : Agent principal de chiffrement  
-- `test2.py` : Script de test  
-- `requirements.txt` : Dépendances du projet  
-- `.gitignore` : Fichiers ignorés  
+## 7. Structure du projet
+- `agent.py` : code principal de l’agent de chiffrement  
+- `test2.py` : script de test  
+- `requirements.txt` : dépendances Python  
+- `.gitignore` : fichiers à ignorer dans le dépôt Git  
+- `README.md` : documentation du projet
 
 ---
 
-## Exécution du projet
+## 8. Installation et exécution
+1. Cloner le dépôt :
 ```bash
-pip install -r requirements.txt
-python agent.py
+git clone <lien_du_depot>
+cd ai-encryption-agent
